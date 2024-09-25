@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+        margin: 0;
+        
+    }
+    .container{
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+    }
+    @media(min-height:600px){
+        .container{
+            background-color: lightgreen;
+        }
+    }
+    @media(min-height:900vh){
+        .container{
+            background-color: lightgreen;
+        }
+            
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>media queries</h1>
+        <p>resize the window to see the background color change</p>
+    </div>
+    
+</body>
+</html>
